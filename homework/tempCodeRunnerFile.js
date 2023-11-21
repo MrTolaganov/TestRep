@@ -1,10 +1,9 @@
-const thief = {
-    jacket: "Black",
+const showDB = () => {
+  if (seriesDB.private === false) {
+    console.log(seriesDB);
+  } else {
+    console.log("");
+  }
 }
 
-const property = "age";
-const value = "30";
-
-thief[property] = value;
-
-console.log(thief);
+showDB();
